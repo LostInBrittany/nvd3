@@ -6366,7 +6366,8 @@ nv.models.lineChart = function() {
 
             lines
                 .width(availableWidth)
-                .height(availableHeight1).interpolate(data
+                .height(availableHeight1)
+                .interpolate(data
                   .map(function(d,i) {
                     return d.interpolate;
                   })
